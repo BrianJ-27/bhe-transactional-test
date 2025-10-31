@@ -121,7 +121,7 @@
     margin-top: 1rem;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 auto;
+    margin-left: 0;
     padding-block-start: 1.5rem;
   }
   /*Spacing Utilities*/
@@ -266,6 +266,9 @@
   .content__small {
     line-height: 1.2;
   }
+    .flex__btn-group {
+    margin: 0 auto;
+  }
 }
  </style>
 </head>
@@ -285,7 +288,7 @@
     <!--dynamic link content-->
     <p class="content__regular">To manage all email or text preferences, please log in to your <a class="link__profile" href="#my-account" target="_blank" >My Account profile</a>.</p>
      <!--dynamic link content-->
-    <div class="flex__btn-group space-top-sm">
+    <div class="flex__btn-group space-top-sm" style="margin-bottom: 0;">
       <a class="cta outline" href="/">my account</a>
       <button class="cta full" type="submit">Submit</button>
     </div>
